@@ -7,4 +7,9 @@
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'ClinicManagementSystem' " />
+  <ItemGroup>
+    <ProjectReference Include="..\ClinicManagementSystem.BLL\ClinicManagementSystem.BLL.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

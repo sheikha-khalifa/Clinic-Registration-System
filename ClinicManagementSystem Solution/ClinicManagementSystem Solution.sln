@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicManagementSystem.PL",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicManagementSystem.DAL", "ClinicManagementSystem.DAL\ClinicManagementSystem.DAL.csproj", "{D9024D8E-6E2F-4FB1-8705-D3111B728027}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicManagementSystem.BLL", "ClinicManagementSystem.BLL\ClinicManagementSystem.BLL.csproj", "{F21C90D9-452D-426B-8975-1C52FCB1CE5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D9024D8E-6E2F-4FB1-8705-D3111B728027}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9024D8E-6E2F-4FB1-8705-D3111B728027}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9024D8E-6E2F-4FB1-8705-D3111B728027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F21C90D9-452D-426B-8975-1C52FCB1CE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F21C90D9-452D-426B-8975-1C52FCB1CE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F21C90D9-452D-426B-8975-1C52FCB1CE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F21C90D9-452D-426B-8975-1C52FCB1CE5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

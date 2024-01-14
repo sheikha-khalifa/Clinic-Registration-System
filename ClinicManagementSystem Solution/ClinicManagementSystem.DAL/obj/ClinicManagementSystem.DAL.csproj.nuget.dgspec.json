@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sultana/Documents/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj": {}
+    "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj": {}
   },
   "projects": {
-    "/Users/sultana/Documents/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj": {
+    "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sultana/Documents/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj",
+        "projectUniqueName": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj",
         "projectName": "ClinicManagementSystem.DAL",
-        "projectPath": "/Users/sultana/Documents/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj",
-        "packagesPath": "/Users/sultana/.nuget/packages/",
-        "outputPath": "/Users/sultana/Documents/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/obj/",
+        "projectPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj",
+        "packagesPath": "/Users/sabrinal-saidi/.nuget/packages/",
+        "outputPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sultana/.nuget/NuGet/NuGet.Config"
+          "/Users/sabrinal-saidi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

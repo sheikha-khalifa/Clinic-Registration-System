@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem/ClinicManagementSystem.PL.csproj": {}
+    "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj": {}
   },
   "projects": {
     "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj": {
@@ -112,67 +112,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem/ClinicManagementSystem.PL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem/ClinicManagementSystem.PL.csproj",
-        "projectName": "ClinicManagementSystem.PL",
-        "projectPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem/ClinicManagementSystem.PL.csproj",
-        "packagesPath": "/Users/sabrinal-saidi/.nuget/packages/",
-        "outputPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/sabrinal-saidi/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj": {
-                "projectPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

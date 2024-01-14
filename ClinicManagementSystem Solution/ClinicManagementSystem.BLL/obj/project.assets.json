@@ -734,6 +734,19 @@
             "rid": "win"
           }
         }
+      },
+      "ClinicManagementSystem.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ClinicManagementSystem.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClinicManagementSystem.DAL.dll": {}
+        }
       }
     }
   },
@@ -1898,11 +1911,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ClinicManagementSystem.DAL/1.0.0": {
+      "type": "project",
+      "path": "../ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj",
+      "msbuildProject": "../ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0"
+      "ClinicManagementSystem.DAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1911,11 +1929,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj",
-      "projectName": "ClinicManagementSystem.DAL",
-      "projectPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj",
+      "projectUniqueName": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj",
+      "projectName": "ClinicManagementSystem.BLL",
+      "projectPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj",
       "packagesPath": "/Users/sabrinal-saidi/.nuget/packages/",
-      "outputPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/obj/",
+      "outputPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/sabrinal-saidi/.nuget/NuGet/NuGet.Config"
@@ -1929,7 +1947,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj": {
+              "projectPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1941,12 +1963,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[6.0.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

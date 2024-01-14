@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{934C216B-D475-4DB5-BE98-B931F4BAB93D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Clinic Registration system/Controllers/PatientController.cs">
+    <Files>
+      <File FileName="Clinic Registration system/Controllers/AdminController.cs" Line="1" Column="1" />
+      <File FileName="Clinic Registration system/Controllers/PatientController.cs" Line="35" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Clinic Registration system">
+            <Node name="Clinic Registration system" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Clinic_220Registration_220system PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

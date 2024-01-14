@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+jsLtWt2TQHf56185dwuOSNMWoh1cMCDkxHqX8iAVUa3bB0oftCrD4eUqkkTDHT4F40HXJGBP7+KuY53c3zzmQ==",
+  "dgSpecHash": "Hmbl6tGeFUMLZbOkUWlA31GR+n1xT/UODK28aPrFao+dxzOsP5U7c4SZLxZswo1m8Vyfh/xy4h5QlKAM+nM0jw==",
   "success": true,
-  "projectFilePath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem/ClinicManagementSystem.PL.csproj",
+  "projectFilePath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj",
   "expectedPackageFiles": [
     "/Users/sabrinal-saidi/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/sabrinal-saidi/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
