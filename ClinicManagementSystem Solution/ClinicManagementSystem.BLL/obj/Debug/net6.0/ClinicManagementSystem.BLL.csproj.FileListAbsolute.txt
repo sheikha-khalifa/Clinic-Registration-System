@@ -13,3 +13,18 @@ C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution
 C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\refint\ClinicManagementSystem.BLL.dll
 C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\ClinicManagementSystem.BLL.pdb
 C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\ref\ClinicManagementSystem.BLL.dll
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\bin\Debug\net6.0\ClinicManagementSystem.BLL.deps.json
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\bin\Debug\net6.0\ClinicManagementSystem.BLL.dll
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\bin\Debug\net6.0\ClinicManagementSystem.BLL.pdb
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\bin\Debug\net6.0\ClinicManagementSystem.DAL.dll
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\bin\Debug\net6.0\ClinicManagementSystem.DAL.pdb
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\ClinicManagementSystem.BLL.csproj.AssemblyReference.cache
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\ClinicManagementSystem.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\ClinicManagementSystem.BLL.AssemblyInfoInputs.cache
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\ClinicManagementSystem.BLL.AssemblyInfo.cs
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\ClinicManagementSystem.BLL.csproj.CoreCompileInputs.cache
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\ClinicManagementSystem.BLL.csproj.CopyComplete
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\ClinicManagementSystem.BLL.dll
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\refint\ClinicManagementSystem.BLL.dll
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\ClinicManagementSystem.BLL.pdb
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.BLL\obj\Debug\net6.0\ref\ClinicManagementSystem.BLL.dll

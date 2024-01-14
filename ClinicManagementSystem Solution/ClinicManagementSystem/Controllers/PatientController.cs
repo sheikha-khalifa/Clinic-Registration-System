@@ -30,17 +30,17 @@ namespace ClinicManagementSystem.PL.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Patient patient)
+        public IActionResult Create(Patient p)
         {
             if (ModelState.IsValid)
             {
-                _patientRepository.Create(patient);
+                _patientRepository.Create(p);
                 return RedirectToAction("Index");
             }
-            return View();
+            return View(ModelState);
         }
         [HttpPost]
-        public IActionResult Create(Appoitment appo)
+        public IActionResult CreateAppoin(Appoitment appo)
         {
             if (ModelState.IsValid)
             {

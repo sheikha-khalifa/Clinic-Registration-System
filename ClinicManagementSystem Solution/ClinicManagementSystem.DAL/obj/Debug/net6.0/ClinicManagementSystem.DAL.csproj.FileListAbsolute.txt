@@ -10,3 +10,15 @@ C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution
 C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\refint\ClinicManagementSystem.DAL.dll
 C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.pdb
 C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ref\ClinicManagementSystem.DAL.dll
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\bin\Debug\net6.0\ClinicManagementSystem.DAL.deps.json
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\bin\Debug\net6.0\ClinicManagementSystem.DAL.dll
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\bin\Debug\net6.0\ClinicManagementSystem.DAL.pdb
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.csproj.AssemblyReference.cache
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.AssemblyInfoInputs.cache
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.AssemblyInfo.cs
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.csproj.CoreCompileInputs.cache
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.dll
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\refint\ClinicManagementSystem.DAL.dll
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.pdb
+D:\Documents\Makeen Program\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ref\ClinicManagementSystem.DAL.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj": {}
+    "D:\\Documents\\Makeen Program\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj": {
+    "D:\\Documents\\Makeen Program\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj",
+        "projectUniqueName": "D:\\Documents\\Makeen Program\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj",
         "projectName": "ClinicManagementSystem.DAL",
-        "projectPath": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\obj\\",
+        "projectPath": "D:\\Documents\\Makeen Program\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj",
+        "packagesPath": "C:\\Users\\Eng AbuFiras\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\Makeen Program\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Eng AbuFiras\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

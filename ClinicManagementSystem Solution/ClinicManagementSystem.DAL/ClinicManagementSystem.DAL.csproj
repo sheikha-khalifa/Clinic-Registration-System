@@ -11,7 +11,6 @@
     <None Remove="Context\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Migrations\" />
     <Folder Include="Models\" />
     <Folder Include="Context\" />
   </ItemGroup>
