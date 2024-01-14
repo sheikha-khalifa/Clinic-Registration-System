@@ -6,6 +6,7 @@ namespace ClinicManagementSystem.DAL.Models
 {
 	public class Doctor
 	{
+        [Key]
 		public int DoctorId { get; set; }
 
         [Required]

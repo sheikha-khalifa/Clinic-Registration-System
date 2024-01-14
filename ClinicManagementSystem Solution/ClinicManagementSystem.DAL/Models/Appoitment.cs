@@ -6,6 +6,7 @@ namespace ClinicManagementSystem.DAL.Models
 {
 	public class Appoitment
 	{
+		[Key]
 		public int AppointmentId { get; set; }
 
 		[Required]

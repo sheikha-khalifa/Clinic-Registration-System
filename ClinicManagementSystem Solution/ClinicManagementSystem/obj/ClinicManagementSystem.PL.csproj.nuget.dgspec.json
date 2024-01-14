@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem/ClinicManagementSystem.PL.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem\\ClinicManagementSystem.PL.csproj": {}
   },
   "projects": {
-    "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj": {
+    "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.BLL\\ClinicManagementSystem.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.BLL\\ClinicManagementSystem.BLL.csproj",
         "projectName": "ClinicManagementSystem.BLL",
-        "projectPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj",
-        "packagesPath": "/Users/sabrinal-saidi/.nuget/packages/",
-        "outputPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/obj/",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.BLL\\ClinicManagementSystem.BLL.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sabrinal-saidi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj": {
-                "projectPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj"
+              "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj"
               }
             }
           }
@@ -57,26 +59,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj": {
+    "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj",
         "projectName": "ClinicManagementSystem.DAL",
-        "projectPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/ClinicManagementSystem.DAL.csproj",
-        "packagesPath": "/Users/sabrinal-saidi/.nuget/packages/",
-        "outputPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.DAL/obj/",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\ClinicManagementSystem.DAL.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sabrinal-saidi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -116,35 +120,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem/ClinicManagementSystem.PL.csproj": {
+    "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem\\ClinicManagementSystem.PL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem/ClinicManagementSystem.PL.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem\\ClinicManagementSystem.PL.csproj",
         "projectName": "ClinicManagementSystem.PL",
-        "projectPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem/ClinicManagementSystem.PL.csproj",
-        "packagesPath": "/Users/sabrinal-saidi/.nuget/packages/",
-        "outputPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem/obj/",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem\\ClinicManagementSystem.PL.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sabrinal-saidi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj": {
-                "projectPath": "/Users/sabrinal-saidi/Desktop/Clinic-Registration-System/ClinicManagementSystem Solution/ClinicManagementSystem.BLL/ClinicManagementSystem.BLL.csproj"
+              "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.BLL\\ClinicManagementSystem.BLL.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Desktop\\Clinic-Registration-System\\ClinicManagementSystem Solution\\ClinicManagementSystem.BLL\\ClinicManagementSystem.BLL.csproj"
               }
             }
           }
@@ -158,6 +163,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -177,7 +190,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

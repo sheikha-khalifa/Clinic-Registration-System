@@ -5,6 +5,7 @@ namespace ClinicManagementSystem.DAL.Models
 {
 	public class Spatialization
 	{
+		[Key]
 		public int SpatializationID { get; set; }
 
 		[Required]

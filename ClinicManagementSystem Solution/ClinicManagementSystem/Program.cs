@@ -1,4 +1,8 @@
-﻿using Microsoft.Extensions.Options;
+﻿using ClinicManagementSystem.BLL.Interfaces;
+using ClinicManagementSystem.BLL.Repository;
+using ClinicManagementSystem.DAL.Context;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace ClinicManagementSystem;
 
@@ -12,9 +16,12 @@ public class Program
         builder.Services.AddControllersWithViews();
 
 
-        //builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("")));
-
-
+        builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefualtConnect")));
+        builder.Services.AddScoped<IAppointmantRepository, AppoitmentRepositroy>();
+        builder.Services.AddScoped<IDoctorRepository, DoctorRepository>();
+        builder.Services.AddScoped<IPatientRepository, PatientRepository>();
+        builder.Services.AddScoped<ISpecalizationRepository, SpecilizationRepository>();
+       
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.

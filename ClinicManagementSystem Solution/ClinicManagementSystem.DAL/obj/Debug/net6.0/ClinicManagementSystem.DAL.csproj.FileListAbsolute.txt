@@ -1,0 +1,12 @@
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\bin\Debug\net6.0\ClinicManagementSystem.DAL.deps.json
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\bin\Debug\net6.0\ClinicManagementSystem.DAL.dll
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\bin\Debug\net6.0\ClinicManagementSystem.DAL.pdb
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.AssemblyInfo.cs
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.dll
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\refint\ClinicManagementSystem.DAL.dll
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ClinicManagementSystem.DAL.pdb
+C:\Users\Dell\Desktop\Clinic-Registration-System\ClinicManagementSystem Solution\ClinicManagementSystem.DAL\obj\Debug\net6.0\ref\ClinicManagementSystem.DAL.dll
