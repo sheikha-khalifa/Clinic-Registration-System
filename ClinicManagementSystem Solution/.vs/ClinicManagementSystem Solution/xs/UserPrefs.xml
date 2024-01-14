@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{3DEDBCC6-6615-4E76-95A1-FA04419F28D8}|ClinicManagementSystem">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ClinicManagementSystem.PL PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClinicManagementSystem/Program.cs">
+    <Files>
+      <File FileName="ClinicManagementSystem.DAL/Models/Patient.cs" Line="21" Column="12" />
+      <File FileName="ClinicManagementSystem.DAL/Models/Appoitment.cs" Line="24" Column="9" />
+      <File FileName="ClinicManagementSystem.DAL/Models/Doctor.cs" Line="31" Column="36" />
+      <File FileName="ClinicManagementSystem.DAL/Models/Spatialization.cs" Line="10" Column="3" />
+      <File FileName="ClinicManagementSystem.DAL/Context/ApplicationDbContext.cs" Line="9" Column="77" />
+      <File FileName="ClinicManagementSystem/Program.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ClinicManagementSystem Solution" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ClinicManagementSystem.DAL FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
