@@ -4,6 +4,7 @@
 @{
 }
 @model Patient
+
 <h3>Add Patient</h3>
 <form asp-action="Create">
     @* <div asp-validation-summary="All"></div> *@
@@ -12,25 +13,24 @@
 
     <label asp-for="Name" class="form-Label"></label>
     <input asp-for="Name" class="form-control" />
-    @* <span asp-validation-for="Name" class="text-danger"></span> *@
+    <span asp-validation-for="Name" class="text-danger"></span>
 
 
     <label asp-for="Email" class="form-Label"></label>
     <input asp-for="Email" class="form-control" />
-    @* <span asp-validation-for="Email"  class="text-danger"></span> *@
+    <span asp-validation-for="Email"  class="text-danger"></span>
 
 
     <label asp-for="PhoneNo" class="form-Label"></label>
     <input asp-for="PhoneNo"  class="form-control" />
-    @* <span asp-validation-for="PhoneNo" class="text-danger"></span> *@
+    <span asp-validation-for="PhoneNo" class="text-danger"></span>
 
     <label asp-for="Age" class="form-Label"></label>
     <input asp-for="Age" class="form-control" />
-    @* <span asp-validation-for="Age" class="text-danger"></span> *@
+   
 
 
     <input type="submit" class="btn btn-primary" />
     | <a asp-action="Index" class="btn btn-dark"> Back to List</a>
 
 </form>
-

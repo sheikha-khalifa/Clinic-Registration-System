@@ -22,7 +22,7 @@ namespace ClinicManagementSystem.DAL.Models
 		[Required]
 		public long PhoneNo { get; set; }
 
-		public ICollection<Appoitment> Appoitments { get; set; }
+		public ICollection<Appoitment>? Appoitments { get; set; }
 	}
 }
 

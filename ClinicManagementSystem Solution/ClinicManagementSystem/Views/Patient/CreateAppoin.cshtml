@@ -6,17 +6,19 @@
 
 @model Appoitment
 
-<form asp-action="Create">
+<form asp-action="CreateAppoin">
 
-    <label class="form-Label">Doctor</label>
-    <input class="form-control" />
-    <span class="text-danger"></span>
 
 
     <label class="form-Label">Specializatoin</label>
     <input class="form-control" />
     <span  class="text-danger"></span>
+    
+    <label class="form-label">Doctors</label>
+    <select class="form-control" asp-for="DoctorId" asp-items="@ViewBag.doctors">
+        <options value="@null">--Select Doctors--</options>
 
+    </select>
 
     <label asp-for=Date class="form-Label">Date</label>
     <input asp-for=Date class="form-control" />

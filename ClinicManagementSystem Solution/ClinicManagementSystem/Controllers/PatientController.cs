@@ -2,6 +2,7 @@
 using ClinicManagementSystem.BLL.Repository;
 using ClinicManagementSystem.DAL.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ClinicManagementSystem.PL.Controllers
 {
@@ -26,18 +27,23 @@ namespace ClinicManagementSystem.PL.Controllers
         }
         public IActionResult Create()
         {
-
             return View();
         }
         [HttpPost]
         public IActionResult Create(Patient p)
         {
-            if (ModelState.IsValid)
+                if (ModelState.IsValid)
             {
                 _patientRepository.Create(p);
                 return RedirectToAction("Index");
             }
-            return View(ModelState);
+            return View(p);
+        }
+        public IActionResult CreateAppoin()
+        {
+            List<Doctor> doctors = _doctorRepository.GetAll().ToList();
+            ViewBag.DoctorList = new SelectList(doctors, "DoctorId", "Name");
+            return View();
         }
         [HttpPost]
         public IActionResult CreateAppoin(Appoitment appo)
