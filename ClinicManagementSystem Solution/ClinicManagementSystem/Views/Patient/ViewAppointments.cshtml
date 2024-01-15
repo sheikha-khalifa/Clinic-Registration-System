@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<Appoitment>
+
+<div>
+    <h2> Patients List </h2>
+    @* <a asp-action="Create" class="btn btn-primary float-end"> Add New Patient</a> *@
+    @if (Model.Count() > 0)
+    {
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Doctor ID</th>
+                    <th scope="col">Patient ID</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="table-info">
+                        <th class="col-2">@item.AppointmentId</th>
+                        <th class="col-2">@item.Date</th>
+                        <td class="col-2">@item.Status</td>
+                        <td class="col-2">@item.DoctorId</td>
+                        <td class="col-2">@ViewBag.PatientName</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    }
+</div>

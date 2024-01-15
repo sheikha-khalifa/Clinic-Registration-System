@@ -2,25 +2,38 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    // var spatialization = new SelectList(ViewBag.D);
 }
 
 @model Appoitment
-
-<form asp-action="CreateAppoin">
-
-
-
-    <label class="form-Label">Specializatoin</label>
-    <input class="form-control" />
-    <span  class="text-danger"></span>
+<head>
     
-    <label class="form-label">Doctors</label>
-    <select class="form-control" asp-for="DoctorId" asp-items="@ViewBag.doctors">
-        <options value="@null">--Select Doctors--</options>
+</head>
+<form asp-action="CreateAppoin">
+    <input type="hidden" asp-for="PatientID" value="@ViewBag.patientID" />
 
+    <label asp-for=PatientID class="form-Label">Name</label>
+    <input class="form-control" value="@ViewBag.patientName" readonly />
+
+    <label  class="form-label">Spatialisations</label>
+    <select class="form-control" id="Spec"  asp-items="@ViewBag.specList">
+        <option value="@null">--Select Spatialisations--</option>
+    </select>
+    
+    <label asp-for=Doctor class="form-label">Doctors</label>
+    <select class="form-control" asp-for="DoctorId" id="doc" >
+        @* <option value="">-- Select Doctors --</option> *@
     </select>
 
-    <label asp-for=Date class="form-Label">Date</label>
+    <label asp-for=Status class="form-Label"></label>
+    <input asp-for=Status class="form-control" />
+    @* <span asp-validation-for="Status" class="text-danger"></span> *@
+
+    <label asp-for=Date class="form-Label"></label>
     <input asp-for=Date class="form-control" />
-    <span asp-validation-for="Date" class="text-danger"></span>
+    @* <span asp-validation-for="Date" class="text-danger"></span> *@
+
+    <input type="submit" class="btn btn-primary" />
+    | <a asp-action="Index" class="btn btn-dark"> Back to List</a>
 </form>
+<script src="~/js/site.js"></script>
