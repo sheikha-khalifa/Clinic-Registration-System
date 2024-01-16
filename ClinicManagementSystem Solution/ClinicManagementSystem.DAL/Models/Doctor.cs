@@ -31,7 +31,7 @@ namespace ClinicManagementSystem.DAL.Models
         //Foriegn Key Spatialization Entity
         [ForeignKey("Spatialization")]
         public int SpatializationId { get; set; }
-		public Spatialization Spatialization { get; set; }
+		public Spatialization? Spatialization { get; set; }
 
 	}
 }

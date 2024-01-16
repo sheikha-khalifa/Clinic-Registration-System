@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var patient = new SelectList(ViewBag.Patients, "Id", "Name");
+    var doctor = new SelectList(ViewBag.Doctors, "Id", "Name");
+}
+@model List<Appoitment>
+
+
+<partial name="PartialView/ControlButtonsParial" />
+
+<div>
+    <h2> Appointment List </h2>
+    
+    @if (Model.Count() > 0)
+    {
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Patient Name </th>
+                    <th scope="col">Doctor Name</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="table-info">
+                        <td asp-item="@patient" class="col-4">@item.Patient?.Name</td>
+                        <td asp-item="@doctor" class="col-4">@item.Doctor?.Name</td>
+                        <td class="col-4">@item.Date</td>
+                        <td class="col-4 text-danger">@item.Status</td>
+                        <td class="col-2"><a class="btn btn-outline-dark">Appointment Detail</a></td>
+                        <td class="col-2"><a asp-action="UpdateAppoitment" class="btn btn-outline-dark">Update Appointment</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    }
+    @* <partial name="PartialView/SpcilizationPartial" /> *@
+</div>

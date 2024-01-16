@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    // var patient = new SelectList(ViewBag.Patients, "Id", "Name");
+    // var doctor = new SelectList(ViewBag.Doctors, "Id", "Name");
+}
+@model Appoitment
+
+<h3>update </h3>
+<form asp-action="UpdateAppoitment">
+    @* <div asp-validation-summary="All"></div> *@
+
+    @* <partial name="PartialView/CreateUpdatePartial" /> *@
+
+    <label asp-for="Patient.Name" class="form-Label"></label>
+    <input readonly value="@ViewBag.Patients" asp-for="Patient.Name" class="form-control" />
+    @* <span asp-validation-for="Patient.Name" class="text-danger"></span> *@
+
+
+    <label asp-for="Doctor.Name" class="form-Label"></label>
+    <input readonly value="@ViewBag.Doctors" asp-for="Doctor.Name" class="form-control" />
+    @* <span asp-validation-for="Doctor.Name" class="text-danger"></span> *@
+
+
+    <label asp-for="Date" class="form-Label"></label>
+    <input readonly asp-for="Date" class="form-control" />
+    @* <span asp-validation-for="PhoneNo" class="text-danger"></span> *@
+
+    <label asp-for="Status" class="form-label"></label>
+    <select class="form-control" asp-for="Status">
+        <options value="panding">pending..</options>
+        <options value="Aproved">Aproved..</options>
+        <options value="Reschedule">Reschedule..</options>
+        <options value="Canceled">Canceled..</options>
+    </select>
+
+
+
+    <input type="submit" class="btn btn-primary" />
+    | <a asp-action="Index" class="btn btn-dark"> Back to List</a>
+
+</form>

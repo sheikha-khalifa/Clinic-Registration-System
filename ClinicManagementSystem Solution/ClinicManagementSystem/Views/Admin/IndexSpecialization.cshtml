@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+
+*@
+
+@model List<Spatialization>
+
+<partial name="PartialView/ControlButtonsParial" />
+
+
+<div>
+    <h2> Specilization List </h2>
+    <td class="col-2"><a asp-action="Create" class="btn btn-outline-dark">Add new</a></td>
+
+    @if (Model.Count() > 0)
+    {
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Code </th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="table-info">
+                        <td class="col-4">@item.Code</td>
+                        <td class="col-4">@item.Name</td>
+                        <td class="col-4 ">@item.Description</td>
+                        <td class="col-2"><a class="btn btn-outline-dark"> Detail</a></td>
+                        <td class="col-2"><a asp-action="Update" class="btn btn-outline-dark">Update</a></td>
+                        <td class="col-2"><a asp-action="Delete" class="btn btn-outline-dark">Delete</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    }
+
+</div>

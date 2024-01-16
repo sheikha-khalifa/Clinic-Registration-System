@@ -1,0 +1,52 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    //var patient = new SelectList(ViewBag.Patients, "Id", "Name");
+    // var doctor = new SelectList(ViewBag.Doctors, "Id", "Name");
+    var spec = new SelectList(ViewBag.Spatializations , "Id", "Name");
+}
+@model List<Doctor>
+
+
+<partial name="PartialView/ControlButtonsParial" />
+
+<div>
+    <h2> Doctor List </h2>
+    <td class="col-2"><a asp-action="Create" class="btn btn-outline-dark">Add Doctor</a></td>
+
+
+    @if (Model.Count() > 0)
+    {
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col"> Name </th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Salary</th>
+                    <th scope="col">Specialization</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="table-info">
+                        <td class="col-4">@item.Name</td>
+                        <td class="col-4">@item.PhoneNo</td>
+                        <td class="col-4">@item.Email</td>
+                        <td class="col-4">@item.Age</td>
+                        <td class="col-4">@item.Salary</td>
+                        <td asp-item="@spec" class="col-4">@item.Spatialization?.Name</td>
+                        <td class="col-2"><a class="btn btn-outline-dark"> Detail</a></td>
+                        <td class="col-2"><a asp-action="Update" class="btn btn-outline-dark">Update</a></td>
+                        <td class="col-2"><a asp-action="Delete" class="btn btn-outline-dark">Delete</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    }
+</div>

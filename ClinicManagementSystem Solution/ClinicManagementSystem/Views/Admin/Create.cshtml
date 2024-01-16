@@ -1,0 +1,57 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    // var SpecId = new SelectList(ViewBag.Spatializations, "Id");
+    // var SpecName = new SelectList(ViewBag.Spatializations, "Name");
+}
+@model Doctor
+
+<h3>Add Doctor</h3>
+<form asp-action="Create">
+    @* <div asp-validation-summary="All"></div> *@
+
+    @* <partial name="PartialView/CreateUpdatePartial" /> *@
+
+    <label asp-for="Name" class="form-Label"></label>
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+
+
+    <label asp-for="Email" class="form-Label"></label>
+    <input asp-for="Email" class="form-control" />
+    <span asp-validation-for="Email"  class="text-danger"></span>
+
+
+    <label asp-for="PhoneNo" class="form-Label"></label>
+    <input asp-for="PhoneNo"  class="form-control" />
+    <span asp-validation-for="PhoneNo" class="text-danger"></span>
+
+    <label asp-for="Age" class="form-Label"></label>
+    <input asp-for="Age" class="form-control" />
+    <span asp-validation-for="Age" class="text-danger"></span>
+
+    <label asp-for="Salary" class="form-Label"></label>
+    <input asp-for="Salary" class="form-control" />
+    <span asp-validation-for="Salary" class="text-danger"></span>
+
+    @* <input hidden asp-for="SpatializationId" value="@SpecId"></input>
+    <label asp-for="Spatialization" class="form-label">SpatializationId</label>
+    <select class="form-control" asp-for="SpatializationId" asp-items="@SpecName">
+        <options value=" ">--Select Spatialization--</options>
+
+    </select> *@
+    
+    <label asp-for="Spatialization" class="form-label">spatializationid</label>
+    <select class="form-control" asp-for="SpatializationId" asp-items="@ViewBag.Sps">
+    <options value=" ">--select spatialization--</options>
+
+    </select> 
+
+
+
+    <input type="submit" class="btn btn-primary" />
+    | <a asp-action="IndexDoctor" class="btn btn-dark"> Back to Doctors List</a>
+
+</form>
+

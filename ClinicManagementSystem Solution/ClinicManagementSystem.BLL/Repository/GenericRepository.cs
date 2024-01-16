@@ -32,6 +32,7 @@ namespace ClinicManagementSystem.BLL.Repository
 
         public IEnumerable<T> GetAll()
         {
+
             return _context.Set<T>().ToList();
         }
 

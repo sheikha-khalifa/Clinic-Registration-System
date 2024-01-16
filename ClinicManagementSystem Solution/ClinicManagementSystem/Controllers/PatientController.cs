@@ -56,5 +56,35 @@ namespace ClinicManagementSystem.PL.Controllers
             return View();
         }
 
+        public IActionResult Update(int id)
+        {
+            var appo = _appointmant.Get(id);
+            //ViewBag.Departments = _departmentrepo.GetAll();
+            return View(appo);
+        }
+
+        [HttpPost]
+        public IActionResult Update(Appoitment appo)
+        {
+            if (ModelState.IsValid)
+            {
+                _appointmant.Update(appo);
+                return RedirectToAction("Index");
+            }
+            return View(appo);
+        }
+
+        public IActionResult Delete(int id)
+        {
+            var appo = _appointmant.Get(id);
+            return View(appo);
+        }
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeleteConfirm(int id)
+        {
+            var appo = _appointmant.Get(id);
+            _appointmant.Delete(appo);
+            return RedirectToAction("Index");
+        }
     }
 }
