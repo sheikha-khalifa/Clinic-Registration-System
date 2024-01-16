@@ -19,12 +19,12 @@ namespace ClinicManagementSystem.DAL.Models
 		//Foreign Key Patient Entity
 		[ForeignKey("Patient")]
         public int PatientID { get; set; }
-        public Patient Patient { get; set; }
+        public Patient? Patient { get; set; }
 
         //Foriegn Key Doctor Entity
         [ForeignKey("Doctor")]
         public int DoctorId { get; set; }
-		public Doctor Doctor { get; set; }
+		public Doctor? Doctor { get; set; }
 
 
     }
